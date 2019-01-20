@@ -1,7 +1,9 @@
 @file:Suppress("UNUSED_PARAMETER")
 package lesson1.task1
 
-import kotlin.math.*
+import kotlin.math.sqrt
+
+//import kotlin.math.*
 
 /**
  * Пример
@@ -48,8 +50,13 @@ fun quadraticRootProduct(a: Double, b: Double, c: Double): Double {
  * Пример главной функции
  */
 fun main(args: Array<String>) {
-    val x1x2 = quadraticRootProduct(1.0, 13.0, 42.0)
-    println("Root product: $x1x2")
+//    val x1x2 = quadraticRootProduct(1.0, 13.0, 42.0)
+//    println("Root product: $x1x2")
+
+    val r = sqr(8);
+
+
+    println("Результат: $r")
 }
 
 /**
